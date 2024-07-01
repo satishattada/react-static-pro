@@ -1,5 +1,5 @@
 import React from 'react'
-import { useBasepath, useStaticInfo, makePathAbsolute } from 'react-static'
+import { useBasepath, useStaticInfo, makePathAbsolute } from 'react-static-pro-max'
 import { Router, ServerLocation, Location } from '@reach/router'
 
 export default ({ RouterProps: userRouterProps = {} }) => ({

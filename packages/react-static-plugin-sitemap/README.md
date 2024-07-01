@@ -1,4 +1,4 @@
-# react-static-plugin-sitemap
+# react-static-pro-plugin-sitemap
 
 A [React-Static](https://react-static.js.org) plugin for exporting sitemap information.
 
@@ -7,14 +7,14 @@ A [React-Static](https://react-static.js.org) plugin for exporting sitemap infor
 In an existing react-static site run:
 
 ```bash
-$ yarn add react-static-plugin-sitemap
+$ yarn add react-static-pro-plugin-sitemap
 ```
 
 Then add the plugin to your `static.config.js`:
 
 ```javascript
 export default {
-  plugins: ['react-static-plugin-sitemap'],
+  plugins: ['react-static-pro-plugin-sitemap'],
 }
 ```
 
@@ -81,7 +81,7 @@ export default {
 export default {
   plugins: [
     [
-      'react-static-plugin-sitemap',
+      'react-static-pro-plugin-sitemap',
       {
         getAttributes: route => ({
           customXmlAttribute: route.customProperty,

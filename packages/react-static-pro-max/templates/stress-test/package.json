@@ -22,7 +22,7 @@
     "react-hot-loader": "^4.13.0",
     "react-static-pro-max": "^1.0.0",
     "react-static-plugin-emotion": "^7.5.0",
-    "react-static-pro-plugin-reach-router": "^1.0.0",
+    "react-static-pro-plugin-reach-router": "^1.1.0",
     "react-static-plugin-sitemap": "^7.5.1",
     "react-static-pro-plugin-source-filesystem": "^2.0.0",
     "react-static-plugin-styled-components": "^7.5.0",
