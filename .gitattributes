@@ -1,0 +1,5 @@
+# never EVER use CRLF, Windows
+* text eol=lf
+# Ignore line endings in PNG files
+*.png binary
+*.sketch binary

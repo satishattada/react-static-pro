@@ -1,0 +1,14 @@
+node_modules
+dist
+lib
+www
+res
+plugins
+platforms
+tmp
+
+*.d.ts
+
+# Packages build into their root
+packages/**/node.api.js
+packages/**/browser.api.js
