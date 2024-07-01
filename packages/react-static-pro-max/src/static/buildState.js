@@ -3,7 +3,10 @@ import fs from 'fs-extra'
 
 export async function outputBuildState(state) {
   await fs.outputFile(
-    path.join(state.config.paths.ARTIFACTS, 'react-static-pro-max-build-state.json'),
+    path.join(
+      state.config.paths.ARTIFACTS,
+      'react-static-pro-max-build-state.json'
+    ),
     JSON.stringify(state.config, null, 2)
   )
   return state

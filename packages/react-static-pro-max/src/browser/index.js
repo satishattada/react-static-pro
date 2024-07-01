@@ -437,9 +437,7 @@ export function isPrefetchableRoute(path) {
     link = new URL(path, location.href)
   } catch (e) {
     if (typeof URL !== 'function') {
-      console.error(
-        'URL polyfill is required for this browser.'
-      )
+      console.error('URL polyfill is required for this browser.')
     }
     // Return false on invalid URLs
     return false

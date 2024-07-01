@@ -25,7 +25,7 @@ export default {
   },
   plugins: [
     [
-      require.resolve('react-static-plugin-source-filesystem'),
+      require.resolve('react-static-pro-plugin-source-filesystem'),
       {
         location: path.resolve('./src/pages'),
       },

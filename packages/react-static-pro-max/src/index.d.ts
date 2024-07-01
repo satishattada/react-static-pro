@@ -40,7 +40,7 @@ interface SiteDataProps<T extends object> {
  * only works if it is called in a child of `routePathContext.Provider`, which
  * is always the case in a child of the `Routes` component:
  * - any template/container (the `template` key in `Route`)
- * - any page via the react-static-plugin-source-filesystem
+ * - any page via the react-static-pro-plugin-source-filesystem
  * - if you manually wrap a component with `<routePathContext.Provider>`
  *
  * Alternatives include the `RouteData` component and the `withRouteData` HOC.

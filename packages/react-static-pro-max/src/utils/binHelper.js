@@ -13,9 +13,7 @@ let ignorePath
 const originalRequire = Module.prototype.require
 
 // Check and see if we are running react-static-pro-max from the repo
-const needsWorkspaceCheck = __dirname.includes(
-  '/react-static-pro-max/'
-)
+const needsWorkspaceCheck = __dirname.includes('/react-static-pro-max/')
 
 // Recursively checks a module to see if it originated from a
 // react-static-pro-max package in the repo
