@@ -1,6 +1,6 @@
 # react-static-pro-plugin-sitemap
 
-A [React-Static](https://react-static.js.org) plugin for exporting sitemap information.
+A [React-Static] plugin for exporting sitemap information.
 
 ## Installation
 

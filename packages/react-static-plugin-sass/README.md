@@ -1,20 +1,20 @@
-# react-static-plugin-sass
+# react-static-pro-plugin-sass
 
-A [React-Static](https://react-static.js.org) plugin that adds loader and SSR support for [sass](https://github.com/developit/sass)
+A [React-Static]plugin that adds loader and SSR support for [sass](https://github.com/developit/sass)
 
 ## Installation
 
 In an existing react-static site run:
 
 ```bash
-$ yarn add react-static-plugin-sass
+$ yarn add react-static-pro-plugin-sass
 ```
 
 Then add the plugin to your `static.config.js`:
 
 ```javascript
 export default {
-  plugins: ["react-static-plugin-sass"]
+  plugins: ["react-static-pro-plugin-sass"]
 };
 ```
 
@@ -24,7 +24,7 @@ export default {
 export default {
   plugins: [
     [
-      "react-static-plugin-sass",
+      "react-static-pro-plugin-sass",
       {
         includePaths: ["..."] // always includes `src/`
         cssLoaderOptions: {}, // options for the css-loader, like modules
