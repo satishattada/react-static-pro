@@ -83,7 +83,7 @@ export default {
     ]
   },
   plugins: [
-    require.resolve('react-static-plugin-reach-router'),
+    require.resolve('react-static-pro-plugin-reach-router'),
     process.env.STYLE_SYSTEM === 'emotion' &&
       require.resolve('react-static-plugin-emotion'),
     process.env.STYLE_SYSTEM === 'styled-components' &&

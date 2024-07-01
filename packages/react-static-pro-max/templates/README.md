@@ -12,7 +12,7 @@ A Single Page App with multiple pages and a shared navigation component. The pag
 
 ## typescript
 
-The basic template, but with `react-static-plugin-typescript` added and configured for you with every component in `.tsx` and absolute paths set up in `tsconfig.json`.
+The basic template, but with `react-static-pro-plugin-typescript` added and configured for you with every component in `.tsx` and absolute paths set up in `tsconfig.json`.
 
 ## stress test
 

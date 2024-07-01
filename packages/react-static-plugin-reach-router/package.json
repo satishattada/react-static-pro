@@ -1,10 +1,10 @@
 {
-  "name": "react-static-plugin-reach-router",
-  "version": "7.6.2",
-  "description": "A React-Static plugin that adds @reach/router support for React Static",
+  "name": "react-static-pro-plugin-reach-router",
+  "version": "1.0.0",
+  "description": "A react static pro plugin that adds @reach/router",
   "main": "browser.api.js",
-  "repository": "https://github.com/react-static/react-static.git",
-  "author": "Tanner Linsley <tannerlinsley@gmail.com>",
+  "repository": "https://github.com/satishattada/react-static-max.git",
+  "author": "Satish Attada <satishattada@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -17,7 +17,7 @@
   "peerDependencies": {
     "@reach/router": "^1.2.1",
     "react": "^16.9.0 || ^17.0.0",
-    "react-static": "^7.1.0"
+    "react-static-pro-max": "^1.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -26,7 +26,7 @@
     "@babel/preset-react": "^7.0.0",
     "@reach/router": "^1.2.1",
     "react": "^16.9.0",
-    "react-static": "^7.6.2"
+    "react-static-pro-max": "^1.1.0"
   },
   "gitHead": "875004e6e75d36043382b8ec8bba27a766c1a83a"
 }
