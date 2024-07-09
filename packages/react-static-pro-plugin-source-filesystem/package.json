@@ -1,6 +1,6 @@
 {
   "name": "react-static-pro-plugin-source-filesystem",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "A React-Static plugin that adds support for creating routes from a directory",
   "main": "node.api.js",
   "repository": "https://github.com/satishattada/react-static-pro.git",
@@ -15,17 +15,16 @@
     "preversion": "yarn build"
   },
   "peerDependencies": {
-    "react-static-pro-max": "^1.8.0"
+    "react-static-pro-max": "^1.13.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "react-static-pro-max": "^1.8.0"
+    "react-static-pro-max": "^1.13.0"
   },
   "dependencies": {
     "chokidar": "^3.0.2",
     "glob": "^7.1.4"
-  },
-  "gitHead": "875004e6e75d36043382b8ec8bba27a766c1a83a"
+  }
 }
