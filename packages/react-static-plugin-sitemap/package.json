@@ -1,6 +1,6 @@
 {
   "name": "react-static-pro-plugin-sitemap",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A react static pro plugin for exporting sitemap information",
   "main": "dist/node.api.js",
   "repository": "https://github.com/satishattada/react-static-pro.git",
@@ -17,17 +17,16 @@
     "preversion": "yarn build"
   },
   "peerDependencies": {
-    "react-static-pro-max": "^1.14.0"
+    "react-static-pro-max": "^1.15.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "react-static-pro-max": "^1.14.0"
+    "react-static-pro-max": "^1.15.0"
   },
   "dependencies": {
     "chalk": "^2.4.2",
     "fs-extra": "^8.1.0"
-  },
-  "gitHead": "875004e6e75d36043382b8ec8bba27a766c1a83a"
+  }
 }
